@@ -43,7 +43,7 @@ class MainActivity : AppCompatActivity() {
         super.onStop()
     }
     override fun onDestroy() {
-        showMessage("onDeatroy method called")
+        showMessage("onDestroy method called")
         super.onDestroy()
     }
     override fun onRestart() {
